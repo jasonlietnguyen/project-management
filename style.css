@@ -2,6 +2,8 @@ p, li, h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 /* .container{
   padding-right:60px;
   padding-left:60px;
@@ -31,11 +33,28 @@ img{
   border-radius: 1%;
 }
 
+.back-button {
+  border: 1px solid #00BCD4;
+  color: #00BCD4;
+  padding: .5em 3em;
+  border-radius: 3em;
+  transition: .3s ease;
+}
+.back-button:hover {
+  border: 1px solid #00BCD4;
+  color: white;
+  background-color: #00BCD4;
+}
+
 @media (max-width: 768px) {
   .m-margin-sm{
     margin-top: 2em; 
   }
   #title{
     margin: 1em auto;
+  }
+  .back-button {
+    padding: .2em 2em;
+    border-radius: 2em;
   }
 }
