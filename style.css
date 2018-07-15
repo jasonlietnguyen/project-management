@@ -54,10 +54,14 @@ img{
     margin: 1em auto;
   }
   .back-button {
+    border: 1px solid #00BCD4;
+    color: #00BCD4;
     padding: .2em 2em;
     border-radius: 2em;
+    transition: .3s ease;
   }
   .body{
-		background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: cover;
 	}
 }
