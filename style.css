@@ -26,7 +26,7 @@ background-position: center;
 #title{
   margin: 2em auto;
   font-weight: 200;
-  color: white;
+  color: #00BCD4;
 }
 
 img{
@@ -63,5 +63,6 @@ img{
   .body{
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 	}
 }
